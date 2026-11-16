@@ -5,3 +5,10 @@
 # ai-excited-01 — w2: Rainbow Fountain
 
 A photorealistic baby elephant fills the frame at golden hour on the savanna, mouth open in pure joy, trunk raised dead-center and spraying a fountain of water droplets that catch the sunset and glitter in rainbow colors. The twist is not an explosion or fireworks — it is ordinary water turned into a prism celebration by a delighted baby elephant, frozen at the exact moment the fountain bursts upward. `main.ts` simply copies `entry.png` to the output directory, unchanged.
+
+## Why it excites
+
+- **First look:** the face fills the whole frame — there is nowhere else to look, and the joy is instant.
+- **Surprise:** the water itself becomes the rainbow; no fireworks, no explosion, just a trunk, sunlight, and physics doing something magical.
+- **Momentum:** hundreds of droplets are frozen mid-burst, still rising, so the image feels like it is about to overflow the frame.
+- **Small-size punch:** even at thumbnail width, the silhouette reads clearly — big ears, raised trunk, bright fountain against a sunset sky.

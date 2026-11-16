@@ -4,7 +4,7 @@
 // it delivers the single entry image to the judge's output directory,
 // byte for byte, with no transformation.
 
-import { copyFileSync, mkdirSync } from "node:fs";
+import { copyFileSync, mkdirSync, statSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -16,3 +16,7 @@ mkdirSync(outDir, { recursive: true });
 
 const target = join(outDir, "entry.png");
 copyFileSync(source, target);
+
+// Report exactly what was delivered so a run log proves the copy happened.
+const { size } = statSync(target);
+console.log(`rainbow-fountain: copied ${size} bytes -> ${target}`);
